@@ -1,0 +1,88 @@
+
+/* Responsividad */
+@media (max-width: 1024px) {
+    .nav {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+
+    .speedParts {
+        font-size: 1.3em;
+    }
+
+    .speedPartsText {
+        font-size: 0.9em;
+    }
+
+    .carousel-inner img {
+        height: 50vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav {
+        padding: 10px;
+    }
+
+    .speedParts {
+        font-size: 1.2em;
+    }
+
+    .speedPartsText {
+        font-size: 0.8em;
+        padding: 5px;
+    }
+
+    .carousel-inner img {
+        height: 40vh;
+    }
+
+    
+    .card {
+        margin-top: 15px;
+    }            
+    
+    /*Concesionario */
+    
+    .concesionario {
+    flex-direction: column; /* Acomoda los logos en una sola columna */
+    align-items: center;
+    }   
+
+    .concesionario a img {
+    width: 120px; /* Reduce el tamaño para móviles */
+    }
+    
+}
+.submenu #carrito {
+        width: 100%;
+        min-width: unset;
+        right: auto;
+        left: 0;
+}
+
+th, td {
+        font-size: 14px;
+        padding: 5px;
+}
+
+.vaciar-carrito {
+        font-size: 14px;
+        padding: 8px;
+}
+
+
+@media (max-width: 480px) {
+    .speedParts {
+        font-size: 1em;
+    }
+
+    .speedPartsText {
+        font-size: 0.7em;
+    }
+
+    .carousel-inner img {
+        height: 35vh;
+    }
+}

@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container1 {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+}
+.speedParts {
+    font-size: 1.8em !important; 
+    color: rgb(29, 22, 22)!important;
+    text-transform: uppercase !important;
+    text-decoration: none;
+    font-weight: 800;
+}
+.speedPartsText {
+    font-size: 1.2em !important;
+    padding: 20px;
+    color: rgb(29, 22, 22) !important;
+    display: block;
+    text-decoration: none;
+}
+
+/*Formulario */
+
+form {
+    border-radius: 40px;
+    padding: 20px;
+    border-color: brown;
+    background-image: url(CarruselRepuesto.jpg);
+    background-size: cover;
+    background-position: center;
+    color: tomato !important;
+}
+
+/*Footer */
+footer li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.2rem;
+}   
