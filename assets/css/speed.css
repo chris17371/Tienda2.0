@@ -54,6 +54,20 @@ body {
     transform: scale(1.1);
 }
 
+/*Carros */
+.card-img-top {
+    height: 340px;
+    width: 100%;
+    object-fit: cover;
+}
+.container {
+    font-size: 1.5em;
+}
+.container h5 {
+    font-size: 1.5em;
+
+}
+
 /*Footer */
 footer li a {
     color: #333;

@@ -38,10 +38,9 @@ form {
     border-radius: 40px;
     padding: 20px;
     border-color: brown;
-    background-image: url(CarruselRepuesto.jpg);
     background-size: cover;
     background-position: center;
-    color: tomato !important;
+    
 }
 
 /*Footer */
